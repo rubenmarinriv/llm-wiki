@@ -11,15 +11,6 @@ A reference implementation of [Karpathy's LLM Wiki](https://gist.github.com/karp
 | `/llmw-query <question>` | Search the wiki, synthesize cited answers, offer to file results back |
 | `/llmw-health-check` | Audit wiki for contradictions, stale claims, orphans, missing references, gaps |
 
-### Example
-
-```
-/llmw-init
-/llmw-ingest https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
-/llmw-query "What makes crypto options different from traditional options?"
-/llmw-health-check
-```
-
 ## Directory Layout
 
 ```
