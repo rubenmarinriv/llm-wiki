@@ -2,7 +2,6 @@
 name: llmw-ingest
 description: Ingest web content from URLs into the LLM Wiki. Fetches page content, caches raw text, creates summary pages, updates entity/concept pages, and maintains index.md and log.md.
 license: MIT
-compatibility: Requires OpenCode. Uses WebFetch or equivalent to retrieve URLs.
 metadata:
   author: llmw
   version: "1.0"

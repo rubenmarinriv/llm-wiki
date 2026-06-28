@@ -2,7 +2,6 @@
 name: llmw-health-check
 description: Audit the LLM Wiki for quality issues. Detects contradictions, stale claims, orphan pages, missing cross-references, and knowledge gaps. Reports findings and logs results.
 license: MIT
-compatibility: Requires OpenCode.
 metadata:
   author: llmw
   version: "1.0"

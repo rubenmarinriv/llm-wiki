@@ -2,17 +2,14 @@
 name: llmw-init
 description: Initialize the LLM Wiki in a project — creates directory structure and adds wiki conventions to AGENTS.md. Works for new or existing projects. Skill files must already be present (via package or copy).
 license: MIT
-compatibility: Requires OpenCode. Skills must be installed first.
 metadata:
   author: llmw
   version: "1.0"
 ---
 
-Initialize the LLM Wiki in a project. Creates the wiki directory structure and adds wiki conventions to AGENTS.md. Skill files must already be present in `.opencode/` — this command only bootstraps per-project scaffolding, not the skills themselves.
+Initialize the LLM Wiki in a project. Creates the wiki directory structure and adds wiki conventions to AGENTS.md. This command only bootstraps per-project scaffolding, not the skills themselves.
 
 **Input**: None (run as `/llmw-init`).
-
-**Prerequisite**: The 4 LLM Wiki skills and commands must exist under `.opencode/`. If missing, install the `@opencode-ai/llmw` package or copy from the reference implementation.
 
 **Steps**
 

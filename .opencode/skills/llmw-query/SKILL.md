@@ -2,7 +2,6 @@
 name: llmw-query
 description: Query the LLM Wiki. Reads the index, finds relevant pages, synthesizes cited answers in multiple formats, and offers to file valuable answers back into the wiki.
 license: MIT
-compatibility: Requires OpenCode.
 metadata:
   author: llmw
   version: "1.0"

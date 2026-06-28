@@ -1,6 +1,6 @@
 # llmw — LLM Wiki
 
-A reference implementation of [Karpathy's LLM Wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) pattern as OpenCode skills. Build a persistent, compounding knowledge base where the LLM maintains all pages, cross-references, and consistency — you curate sources and ask questions.
+A reference implementation of [Karpathy's LLM Wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) pattern as skills. Build a persistent, compounding knowledge base where the LLM maintains all pages, cross-references, and consistency — you curate sources and ask questions.
 
 ## Commands
 
@@ -36,7 +36,7 @@ Then query with `/llmw-query <question>` and maintain with `/llmw-health-check`.
 
 ## Conventions
 
-See [AGENTS.md](AGENTS.md) for the full specification: page naming (kebab-case), cross-reference syntax (`[[wikilinks]]`), frontmatter schema, and `index.md`/`log.md` formats.
+See generated AGENTS.md for the full specification: page naming (kebab-case), cross-reference syntax (`[[wikilinks]]`), frontmatter schema, and `index.md`/`log.md` formats.
 
 ## License
 
